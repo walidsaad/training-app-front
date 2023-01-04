@@ -194,7 +194,6 @@ var SessionItemComponent = /** @class */ (function () {
     };
     SessionItemComponent.prototype.inscrire = function () {
         console.log('Nouvelle Inscription...');
-        this.session.name = 'Formation Web Avancé';
         this.session.participants = +this.session.participants + 1;
         console.log(this.session.participants + ' Participants');
         this.participantsChange.emit({
