@@ -69,9 +69,9 @@ var AppComponent = /** @class */ (function () {
         this.nbpart = 0;
         this.firstSession = {
             id: 1,
-            name: 'Formation Web',
-            track: 'MEAN Stack',
-            date: 'Prévue du 11/06/2018 au 15/06/2018',
+            name: 'Formation DevOps',
+            track: 'Kubernetes et Docker',
+            date: 'Prévue du 05/01/2023 au 11/01/2023',
             local: 'Lyon',
             participants: 0
         };
